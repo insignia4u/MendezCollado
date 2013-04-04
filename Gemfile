@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails',        '3.2.12'
-gem 'jquery-rails', '2.0.3'
-gem 'refinerycms',  '2.0.9'
+gem 'rails',            '3.2.12'
+gem 'jquery-rails',     '2.0.3'
+gem 'refinerycms',      '2.0.9'
+# gem "zurb-foundation",  '4.0.5'
 
 
 group :assets do
