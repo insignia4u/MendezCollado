@@ -1,0 +1,19 @@
+@media #{$tablet}{
+  header {
+
+    .top-bar-section {
+      ul li {
+        float: left;
+      }
+
+      .divider{
+        clear: none;
+        width: auto;
+      }
+
+      li a:not(.button){
+        padding: 0 12.5px;
+      }
+    }
+  }
+}

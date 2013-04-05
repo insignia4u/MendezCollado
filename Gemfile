@@ -3,13 +3,14 @@ source 'https://rubygems.org'
 gem 'rails',            '3.2.12'
 gem 'jquery-rails',     '2.0.3'
 gem 'refinerycms',      '2.0.9'
-# gem "zurb-foundation",  '4.0.5'
 
 
 group :assets do
-  gem 'sass-rails',   '3.2.6'
-  gem 'coffee-rails', '3.2.2'
-  gem 'uglifier',     '1.3.0'
+  gem 'sass-rails',       '3.2.6'
+  gem 'coffee-rails',     '3.2.2'
+  gem 'uglifier',         '1.3.0'
+  gem "compass-rails",    '1.0.3'
+  gem "zurb-foundation",  '4.1.1'
 end
 
 # Specify additional Refinery CMS Extensions here (all optional):
