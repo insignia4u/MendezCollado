@@ -1,15 +1,15 @@
 <div class="row">
-  <div class="large-3.columns">
+  <div class="large-3 columns">
     <%= link_to Refinery::Core.site_name, refinery.root_path, :id => "logo"%>
   </div>
-  <div class="large-9.columns">
+  <div class="large-9 columns">
     <div class="top-bar-phone">
       <div id="phone">
-        <img src="images/phone.png" alt="Teléfono">
+        <img src=<%= asset_path("layout/phone.png")%> alt="Teléfono">
         <p>
-          <a href="tel:+54 381 421-7000"> +54 (381) 421-7000 </a>
+          <a href="tel:+54 381 421-7000">+54 (381) 421-7000</a>
           <br>
-          <a href="tel:+54 381 430-2134"> +54 (381) 430-2134 </a>
+          <a href="tel:+54 381 430-2134">+54 (381) 430-2134</a>
         </p>
       </div>
     </div>
@@ -46,7 +46,7 @@
 </div>
 
 
-<%= render(:partial => "/refinery/menu", :locals => {
+<%#= render(:partial => "/refinery/menu", :locals => {
              :dom_id => 'menu',
              :css => 'menu'
            }) %>

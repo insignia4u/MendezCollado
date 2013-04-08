@@ -1,5 +1,5 @@
 // Required global settings and mixins for Foundation
-@import "foundation/foundation-global";
+   @import "foundation/foundation-global";
 
 // Settings file to override Foundation variables
 
@@ -17,7 +17,7 @@
 // We use these to control various global styles
 // $body-bg: #fff;
 // $body-font-color: #222;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   $body-font-family: Arial, sans-serif;
 // $body-font-weight: normal;
 // $body-font-style: normal;
 
@@ -65,7 +65,7 @@
 // Grid Variables
 //
 
-// $row-width: 62.5em;
+   $row-width: 60em;
 // $column-gutter: 1.875em;
 // $total-columns: 12;
 
@@ -976,7 +976,7 @@
 //
 
 // Background color for the top bar
-// $topbar-bg: #111;
+   $topbar-bg: #fff;
 
 // Height and margin
 // $topbar-height: 45px;
@@ -992,11 +992,11 @@
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
 // $topbar-link-weight: bold;
-// $topbar-link-font-size: emCalc(13px);
+   $topbar-link-font-size: emCalc(17px);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
-// $topbar-dropdown-link-color: #fff;
+   $topbar-dropdown-bg: white; //  #f2f2f2;
+   $topbar-dropdown-link-color: green !important; //#2D673E;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
 // $topbar-dropdown-toggle-alpha: 0.5;
@@ -1021,12 +1021,8 @@
 // Variables
 //
 
+// @import 'foundation';
 
-@import 'foundation';
-
-$tablet-screen: emCalc(959px);
-
-$small: "only screen and (min-width:"#{$small-screen}") and (max-width:"#{$tablet-screen}")";
 
 $tablet-screen: emCalc(959px);
 

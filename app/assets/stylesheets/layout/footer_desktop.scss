@@ -1,0 +1,35 @@
+@media #{$small} {
+  footer {
+    padding: 0px;
+
+    .side-nav {
+      padding: 0.875em 0;
+      border-bottom:none;
+
+      .first {
+
+      }
+
+      li {
+
+      }
+
+      a {
+
+      }
+    }
+
+    .copyright {
+      position: relative;
+      left: -34px;
+
+      p {
+        line-height: 12px;
+      }
+
+      #logo {
+        margin-top: 27px;
+      }
+    }
+  }
+}

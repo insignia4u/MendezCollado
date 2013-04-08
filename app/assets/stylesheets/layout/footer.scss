@@ -1,0 +1,54 @@
+footer {
+  background-color: #01381b;
+  border-top: 5px solid #eabe55;
+  min-height: 164px;
+  margin-top: 0px;
+  padding: 15px 10px 45px 10px;
+
+  .side-nav {
+    padding: 0 0;
+    border-bottom: 1px solid #6c7264;
+
+    .first {
+      margin-top: 2px;
+      border-top: none;
+    }
+
+    li {
+      border-top: 1px solid #6c7264;
+      margin: 0;
+      padding: 3px 0;
+    }
+
+    a {
+      padding-left: 8px;
+      font-size: 12px;
+      color: white;
+    }
+  }
+
+  .hours {
+    font-size: 11px;
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+  }
+
+  .copyright {
+    margin-left: 0px;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+
+    p {
+      margin-top: 14px;
+      text-align: center;
+    }
+
+    #logo {
+      margin-top: 27px;
+      width: 57px;
+      height: 73px;
+    }
+  }
+}
