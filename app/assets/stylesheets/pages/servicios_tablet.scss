@@ -1,0 +1,49 @@
+@media #{$tablet}{
+  #servicios {
+
+    .columns {
+    }
+
+    .main {
+
+      .image {
+        width: 232px;
+        height: 152px;
+
+        &#service-01 {
+          background: url(../images/servicios/tomografo-01-tablet.png) no-repeat bottom;
+        }
+        &#service-02 {
+          background: url(../images/servicios/tomografo-02-tablet.png) no-repeat bottom;
+        }
+        &#service-03 {
+          background: url(../images/servicios/tomografo-03-tablet.png) no-repeat bottom;
+        }
+      }
+
+      h2 {
+        font-size: 17px;
+      }
+
+      .shadow {
+        background: url(../images/servicios/shadow-tablet.png) no-repeat center;
+        width: 233px;
+        height: 10px;
+      }
+    }
+
+    .secondary {
+
+      .image {
+        background: url(../images/servicios/services-tablet.png) no-repeat center;
+        width: 238px;
+        height: 161px;
+      }
+
+      .description {
+        width: 125px;
+      }
+    }
+
+  }
+}

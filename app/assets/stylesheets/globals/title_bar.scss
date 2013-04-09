@@ -1,0 +1,27 @@
+#title_bar{
+  background-color: rgb(0,131,69);
+  @include filter-gradient(#ffffff, #d5d5d5, horizontal);
+  @include background-image(radial-gradient(center, circle cover, rgb(48,160,73) 5%, rgb(0,131,69) 60%));
+  height: 180px;
+  padding-top: 22px;
+
+  p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin: 0px;
+    font-family: "myriadprobold", "arial";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: normal;
+    color: #91e9b7;
+    @include text-shadow(2px 2px #345800);
+
+    &.news-less {
+      margin-top: 30px;
+    }
+  }
+}

@@ -14,7 +14,7 @@
       </div>
     </div>
     <nav class="top-bar">
-      <section class="top-bar-section">
+<!--       <section class="top-bar-section">
         <ul class="right">
           <li class="active">
             <a href="#"> Empresa </a>
@@ -40,6 +40,12 @@
             <a href="#"> Email </a>
           </li>
         </ul>
+      </section> -->
+      <section class="top-bar-section">
+        <%= render(:partial => "/refinery/menu", :locals => {
+             :dom_id => 'menu',
+           :css => 'menu'
+         }) %>
       </section>
     </nav>
   </div>

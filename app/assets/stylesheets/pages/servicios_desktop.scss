@@ -1,0 +1,55 @@
+@media #{$small} {
+  #servicios {
+
+    .columns {
+      // margin-top: 20px;
+    }
+
+    .main {
+      // padding-top: 20px;
+
+      .image {
+        width: 287px;
+        height: 190px;
+
+        &#service-01 {
+          background: url(../images/servicios/tomografo-01.png) no-repeat bottom;
+        }
+        &#service-02 {
+          background: url(../images/servicios/tomografo-02.png) no-repeat bottom;
+        }
+        &#service-03 {
+          background: url(../images/servicios/tomografo-03.png) no-repeat bottom;
+        }
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+
+      p {
+        line-height: 20px;
+      }
+
+      .shadow {
+        background: url(../images/servicios/shadow.png) no-repeat center;
+        width: 290px;
+        height: 12px;
+      }
+    }
+
+    .secondary {
+
+      .image {
+        background: url(../images/servicios/services.png) no-repeat center;
+        width: 294px;
+        height: 155px;
+      }
+
+      .description {
+        // width: 149px;
+        left: 48%;
+      }
+    }
+  }
+}

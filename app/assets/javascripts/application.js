@@ -13,6 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require index
-//= require_tree .
+//= require jquery-picture-min
 
 $(document).foundation();
+
+$(function(){
+    $('figure.responsive').picture();
+});
