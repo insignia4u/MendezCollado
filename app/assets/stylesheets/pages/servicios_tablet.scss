@@ -1,17 +1,18 @@
 @media #{$tablet}{
   #servicios {
 
-    .columns {
-    }
-
     .main {
+
+      .main-services {
+        height: 152px;
+      }
 
       h2 {
         font-size: 17px;
       }
 
       .shadow {
-        background: url(../images/servicios/shadow-tablet.png) no-repeat center;
+        background: url(shared/shadow-medium.png) no-repeat center;
         width: 233px;
         height: 10px;
       }
@@ -20,9 +21,9 @@
     .secondary {
 
       .image {
-        background: url(../images/servicios/services-tablet.png) no-repeat center;
         width: 238px;
         height: 161px;
+        width: 238px;
       }
 
       .description {
