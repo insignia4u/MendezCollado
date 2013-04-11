@@ -1,0 +1,34 @@
+@media #{$small} {
+
+  #staff {
+
+    ul {
+      margin: 0;
+      max-width: 100%;
+
+      li {
+        width: 32%;
+
+        .staff-box {
+
+          &:hover {
+
+            img {
+            }
+
+            .info {
+            }
+          }
+        }
+
+        img {
+        }
+
+        .info {
+        }
+      }
+    }
+
+  }
+
+}

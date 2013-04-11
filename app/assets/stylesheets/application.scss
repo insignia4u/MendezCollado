@@ -4,7 +4,6 @@
 @import "foundation_and_overrides";
 @import "foundation";
 
-@import "fonts";
 @import "globals/global";
 
 @import "layout/header";
@@ -19,10 +18,9 @@
 @import "globals/title_bar_desktop";
 @import "globals/title_bar_tablet";
 
-// @import "pages/home";
-// @import "pages/home_desktop";
-// @import "pages/home_tablet";
-
 @import "pages/servicios";
 @import "pages/servicios_desktop";
 @import "pages/servicios_tablet";
+
+@import "pages/staff";
+@import "pages/staff_desktop";
