@@ -11,9 +11,9 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require modernizr
 //= require jquery_ujs
 //= require index
-//= require foundation.orbit
 //= require jquery-picture-min
 
 $(document).foundation();
@@ -25,6 +25,8 @@ $(function(){
 $(document).ready(function() {
 
   $(document).foundation('orbit', {bullets: true, timer_speed: 4000});
+
+  $(".slider .data-orbit").removeClass("data-orbit").attr("data-orbit", "");
 
   // Override Slider Header
   $(".orbit-next, .orbit-prev").css({display: "none"});
