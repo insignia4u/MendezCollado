@@ -3,8 +3,17 @@
 
   .columns {
     margin-top: 20px;
+    // margin-right: auto; 
+    // margin-left: auto;
+    // width: 284px;
+    // float: none;
+    }
 
-  }
+    .box-main-service {
+      margin-right: auto; 
+      margin-left: auto;
+      width: 284px;
+    }
 
   .main {
     padding-top: 20px;
@@ -12,8 +21,6 @@
     .main-services {
       position: relative;
       height: 150px;
-      display: table-cell;
-      vertical-align: bottom;
     }
 
     h2 {

@@ -1,6 +1,16 @@
 @media #{$small} {
   #servicios {
 
+    // .columns {
+    //   margin-right: 0;
+    //   margin-left: 0;
+    //   float: left;
+    // }
+
+    .box-main-service {
+      width: 100%;
+    }
+
     .main {
 
       .main-services {
