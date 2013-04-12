@@ -1,0 +1,100 @@
+.slider {
+  background-color: rgb(255,255,255);
+  @include filter-gradient(#ffffff, #d5d5d5, horizontal);
+  @include background-image(radial-gradient(center, ellipse cover,  rgba(255,255,255,1) 29%,rgba(213,213,213,1) 99%));
+  height: 302px;
+
+  .orbit-container {
+    margin-top: 17px;
+    background: none;
+  
+
+    li {
+
+      .slide-img {
+        border: none;
+        width: 259px;
+        height: 130px;
+        margin-left: 2px;
+        margin-top: 0px;
+
+        &#slide01 {
+          background: url("../images/slide01-phone.png");
+        }
+        &#slide02 {
+          background: url("../images/slide02-phone.png");
+        }
+        &#slide03 {
+          background: url("../images/slide03-phone.png");
+        }
+      }
+
+      .description {
+        margin-top: 5px;
+        margin-left: 12px;
+
+        h2 {
+          color: #2D673E;
+          font-size: 33px;
+          font-family: "myriadproboldit";
+          margin: 0px;
+          font-weight: normal;
+          line-height: 39px;
+        }
+
+        h3 {
+          font-size: 16px;
+        }
+
+        p {
+          margin-left: 3px;
+          font-size: 14px;
+          line-height: 18px;
+          color: #333333;
+          display: none;
+        }
+
+        a {
+          padding-top: 7px;
+        }
+
+        .link_button.btn_orange {
+            display: none;
+        }
+      }
+      
+    }
+  }
+
+  .orbit-bullets {
+    text-align: center;
+    display: none;
+
+    li {
+      font-size: 12px;
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      line-height: 24px;
+      background: transparent;
+      float: none;
+      margin-left: 3px;
+      margin-right: 11px;
+      border: 2px solid transparent;
+      @include border-radius(50%);
+      border-radius: 50%;
+      color: #a3a3a3;
+      cursor: pointer;
+      margin-top: 4px;
+
+
+      &.active {
+        font-weight: bold;
+        background: transparent;
+        color: #5f6563;
+        border: 2px solid #dfdfdf;
+      }
+
+    }
+  }
+}

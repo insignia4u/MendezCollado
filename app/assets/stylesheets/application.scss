@@ -19,6 +19,14 @@
 @import "globals/title_bar_desktop";
 @import "globals/title_bar_tablet";
 
+@import "pages/home";
+@import "pages/home_desktop";
+@import "pages/home_tablet";
+
+@import "pages/slider";
+@import "pages/slider_desktop";
+@import "pages/slider_tablet";
+
 @import "pages/servicios";
 @import "pages/servicios_desktop";
 @import "pages/servicios_tablet";
@@ -27,6 +35,3 @@
 @import "pages/staff_desktop";
 @import "pages/staff_tablet";
 
-@import "pages/home";
-@import "pages/home_desktop";
-@import "pages/home_tablet";
