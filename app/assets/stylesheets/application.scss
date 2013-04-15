@@ -19,6 +19,14 @@
 @import "globals/title_bar_desktop";
 @import "globals/title_bar_tablet";
 
+@import "pages/empresa";
+@import "pages/empresa_desktop";
+@import "pages/empresa_tablet";
+
+@import "pages/slider";
+@import "pages/slider_desktop";
+@import "pages/slider_tablet";
+
 @import "pages/servicios";
 @import "pages/servicios_desktop";
 @import "pages/servicios_tablet";
@@ -26,3 +34,4 @@
 @import "pages/staff";
 @import "pages/staff_desktop";
 @import "pages/staff_tablet";
+

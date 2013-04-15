@@ -1,0 +1,44 @@
+@media #{$small} {
+  #main {
+    margin: 0px;
+
+    article {
+      margin-bottom: 74px;
+
+      h2 {
+        margin-top: 35px;
+      }
+
+      h3 {
+      font-size: 24px;
+      line-height: auto;
+      }
+
+      p {
+        line-height: 21px;
+        margin-bottom: 26px;
+      }
+    }
+  }
+
+  #services-box {
+    position: relative;
+    top: -36px;
+    padding: 10px 10px 10px 21px;
+    @include box-shadow(5px 5px 4px #d0d0d0);
+    margin: 0px;
+    width: 100%;
+  }
+
+  #info-panel {
+    .panel {
+      margin: 0px 0px 11px 0px;
+      @include box-shadow(5px 5px 4px #d0d0d0);
+
+      p {
+      margin-left: 20px;
+      }
+    }
+  }
+
+}

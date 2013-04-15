@@ -1,0 +1,45 @@
+@media #{$small} {
+  .slider {
+      height: 422px;
+      border-top: 1px solid #222222;
+
+    .orbit-container {
+      li {
+
+        .slide-img {
+          width: 601px;
+          height: 302px;
+          margin-top: 18px;
+
+          &#slide01 {
+            background: url("../images/slide01.png");
+          }
+          &#slide02 {
+            background: url("../images/slide02.png");
+          }
+          &#slide03 {
+            background: url("../images/slide03.png");
+          }
+        }
+
+        .description {
+          margin-top: 68px;
+          margin-left: 0px;
+
+          p {
+            display: block;
+          }
+
+          .link_button.btn_orange {
+            display: block;
+          }
+
+        }
+      }
+    }
+
+    .orbit-bullets {
+      display: block;
+    }
+  }
+}

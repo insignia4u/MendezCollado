@@ -1,0 +1,25 @@
+@media #{$tablet}{
+  .slider {
+
+    .orbit-container {
+      li {
+
+        .slide-img {
+          width: 450px;
+          height: 228px;
+          margin-top: 25px;
+
+          &#slide01 {
+            background: url("../images/slide01-tablet.png");
+          }
+          &#slide02 {
+            background: url("../images/slide02-tablet.png");
+          }
+          &#slide03 {
+            background: url("../images/slide03-tablet.png");
+          }
+        }
+      }
+    }
+  }
+}
