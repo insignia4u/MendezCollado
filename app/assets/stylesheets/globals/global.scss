@@ -32,3 +32,11 @@
   width: 60px;
   height: 59px;
 }
+
+/* override refinery */
+
+#page {
+  #body_content_title {
+    display: none;
+  }
+}

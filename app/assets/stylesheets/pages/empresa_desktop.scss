@@ -19,7 +19,18 @@
         margin-bottom: 26px;
       }
     }
+
+    #related {
+      article {
+        .description {
+          p {
+            display: block;
+          }
+        }
+      }
+    }
   }
+
 
   #services-box {
     position: relative;
