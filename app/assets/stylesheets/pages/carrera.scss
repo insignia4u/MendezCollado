@@ -1,0 +1,72 @@
+#carrera {
+  background-color: #efefef;
+  .panel{
+    margin: 17px 15px 0px -8px;
+    background-color: white;
+    width: 293px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    float: left;
+  }
+  .columns {
+    margin-bottom: 2px;
+    margin-left: -13px;
+    font-size: 16px;
+  }
+    p {
+      font-size: 14px;
+      color: #4d4d4d;
+      line-height: 24px;
+    }
+
+  .sub-nav dd {
+    color: #999999;
+    margin-top: 3px;
+  }
+  .sub-nav dd a {
+    color: white;
+    text-decoration: none;
+    padding-right: 7px;
+    border-width: 0.8px;
+    border-right-style: solid;
+    border-color: white;
+    }
+  .sub-nav dd.active a {
+    font-weight: bold;
+    padding: 0.1875em 0.5625em;
+    cursor: default;
+    color: rgb(82, 75, 75);
+    border-radius: 0;
+    background: none;
+    padding-right: 7px;
+    border-width: 0.8px;
+    border-right-style: solid;
+    border-color: white;
+  }
+
+  .sub-nav dd a:hover
+  {
+    color: rgb(82, 75, 75);
+  }
+  #title_sub_bar{
+    background-color: rgb(179, 174, 174);
+  }
+
+  .sub-nav{
+    height: 43px;
+    margin-left: 134px;
+    margin-bottom: 30px;
+  }
+  
+  article{
+    h2 {
+        font-size: 19px;
+        font-weight: bold;
+        color: #008245;
+        margin-top: 10px;
+        margin-bottom: 0px;
+      }
+  }
+
+
+}
