@@ -1,0 +1,46 @@
+#sub_menu {
+  background-color: rgb(179, 174, 174);
+  margin-bottom: 20px;
+
+  .sub-nav {
+    height: 42px;
+    margin-left: 134px;
+    margin-bottom: 0;
+
+    dd {
+      color: #999999;
+      margin-top: 8px;
+
+      a {
+        color: white;
+        text-decoration: none;
+        padding-right: 7px;
+        border-width: 1px;
+        border-right-style: solid;
+        border-color: white;
+
+        &:hover{
+          color: rgb(82, 75, 75);
+        }
+
+      }
+
+      &.last {
+        a {
+          border: none;
+        }
+      }
+
+      &.active {
+        a {
+          font-weight: bold;
+          color: rgb(82, 75, 75);
+          background: transparent;
+          padding-right: 7px;
+          @include border-radius(0px, 0px);
+        }
+
+      }
+    }
+  }
+}

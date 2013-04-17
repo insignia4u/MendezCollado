@@ -1,0 +1,58 @@
+#carrera {
+  background-color: #efefef;
+
+  .panel{
+    float: left;
+    width: 293px;
+    margin: 17px 15px 0px -8px;
+    background-color: white;
+    min-height: auto !important;
+
+    h3{
+      margin-left: 23px;
+      margin-top: 20px;
+      font-size: 12px;
+    }
+
+    h2{
+
+    }
+
+    p{
+      font-size: 16px;
+      font-weight: bold;
+      color: #008245;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+  }
+
+  .panel.blue{
+    background-color: #0054a5;
+  }
+
+
+  .columns {
+    margin-bottom: 2px;
+    margin-left: -13px;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #4d4d4d;
+    line-height: 24px;
+  }
+
+  article{
+    h2 {
+        font-size: 19px;
+        font-weight: bold;
+        color: #008245;
+        margin-top: 10px;
+        margin-bottom: 0px;
+      }
+  }
+
+
+}
