@@ -8,8 +8,12 @@
 @import "globals/global";
 
 @import "layout/header";
-@import "layout/header_desktop";
-@import "layout/header_tablet";
+// @import "layout/header_desktop";
+// @import "layout/header_tablet";
+
+@import "layout/sub_menu";
+@import "layout/sub_menu_desktop";
+@import "layout/sub_menu_tablet";
 
 @import "layout/footer";
 @import "layout/footer_desktop";
@@ -35,5 +39,10 @@
 @import "pages/staff_desktop";
 @import "pages/staff_tablet";
 
-@import "layout/sub_menu";
 @import "pages/carrera";
+@import "pages/carrera_desktop";
+@import "pages/carrera_tablet";
+
+@import "pages/quienes-somos";
+@import "pages/quienes-somos_desktop";
+@import "pages/quienes-somos_tablet";
