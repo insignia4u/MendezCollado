@@ -1,12 +1,11 @@
 #carrera {
   background-color: #efefef;
+
   .panel{
+    float: left;
+    width: 293px;
     margin: 17px 15px 0px -8px;
     background-color: white;
-    width: 293px;
-    box-shadow: none;
-    -webkit-box-shadow: none;
-    float: left;
     min-height: auto !important;
 
     h3{
@@ -27,8 +26,9 @@
       margin-bottom: 0px;
     }
   }
+
   .panel.blue{
-    background-color: rgb(45, 45, 165);
+    background-color: #0054a5;
   }
 
 
