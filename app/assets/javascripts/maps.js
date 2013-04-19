@@ -12,7 +12,7 @@ function initialize() {
   var contentString = '<div id="content">'+
     '<div id="siteNotice">'+
     '</div>'+
-    '<h1 id="firstHeading" class="firstHeading">Centro Radiológico</h1>'+
+    '<h6 id="firstHeading" class="firstHeading">Centro Radiológico</h6>'+
     '<div id="bodyContent">'+
     '<p>Muñecas 444 San Miguel de Tucumán</p>'+
     '</div>'+
@@ -21,16 +21,12 @@ function initialize() {
     content: contentString
   });
 
-  var companyImage = new google.maps.MarkerImage('assets/logo.png',
+  var companyImage = new google.maps.MarkerImage('assets/marker.png',
     new google.maps.Size(100,50),
     new google.maps.Point(0,0),
     new google.maps.Point(50,50)
   );
 
-  var companyShadow = new google.maps.MarkerImage('assets/logo_shadow.png',
-    new google.maps.Size(130,50),
-    new google.maps.Point(0,0),
-    new google.maps.Point(65, 50));
 
   var companyPos = new google.maps.LatLng(-26.8247908, -65.204435);
 
@@ -38,8 +34,7 @@ function initialize() {
     position: companyPos,
     map: map,
     icon: companyImage,
-    shadow: companyShadow,
-    title:"Høgenhaug",
+    title:"Mendez Collado",
     zIndex: 3});
 
 
