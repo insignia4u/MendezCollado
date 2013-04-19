@@ -1,58 +1,85 @@
 #carrera {
   background-color: #efefef;
 
-  .panel{
-    float: left;
-    width: 293px;
-    margin: 17px 15px 0px -8px;
-    background-color: white;
-    min-height: auto !important;
-
-    h3{
-      margin-left: 23px;
-      margin-top: 20px;
-      font-size: 12px;
-    }
-
-    h2{
-
-    }
-
-    p{
-      font-size: 16px;
-      font-weight: bold;
-      color: #008245;
-      margin-top: 10px;
-      margin-bottom: 0px;
-    }
-  }
-
-  .panel.blue{
-    background-color: #0054a5;
-  }
-
-
-  .columns {
-    margin-bottom: 2px;
-    margin-left: -13px;
-    font-size: 16px;
-  }
-
-  p {
-    font-size: 14px;
-    color: #4d4d4d;
-    line-height: 24px;
-  }
 
   article{
+
+    p {
+      font-size: 14px;
+      color: #4d4d4d;
+      line-height: 24px;
+      text-align: justify;
+    }
+
     h2 {
-        font-size: 19px;
-        font-weight: bold;
-        color: #008245;
-        margin-top: 10px;
-        margin-bottom: 0px;
+      @include text-shadow(2px 1px #dbdbdb);
+      font-size: 20px;
+      font-weight: bold;
+      color: #008245;
+      padding-top: 5px;
+      padding-bottom: 3px;
       }
   }
+
+  hr {
+    margin: 30px 0;
+  }
+
+  .info-panel {
+     @include box-shadow(1px 1px 2px #D0D0D0);
+
+    .panel {
+      padding-bottom: 30px;
+      margin-bottom: 0.25em;
+      background-color: white;
+      min-height: auto !important;
+      border: none;
+
+      img {
+        display: block;
+        margin: 0 auto;
+      }
+
+      .description {
+        padding-top: 20px;
+
+        h1 {
+          font-family: "Arial";
+          font-size: 23px;
+          font-weight: bold;
+          font-style: italic;
+          color: #ffffff;
+          @include text-shadow(2px 1px 1px #606060);
+        }
+
+        h2 {
+          margin-top: 0px;
+          margin-bottom: 10px;
+          font-family: "Arial";
+          font-size: 18px;
+          font-weight: bold;
+          color: #008245;
+        }
+
+        h3 {
+          font-size: 14px;
+          color: #808080; 
+        }
+      }
+    }
+
+    .panel.blue{
+      background-color: #0054a5;
+    }
+  }
+
+
+  // .columns {
+  //   margin-bottom: 2px;
+  //   margin-left: -13px;
+  //   font-size: 16px;
+  // }
+
 
 
 }

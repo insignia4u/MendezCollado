@@ -8,12 +8,12 @@
 @import "globals/global";
 
 @import "layout/header";
-// @import "layout/header_desktop";
-// @import "layout/header_tablet";
+@import "layout/header_desktop";
+@import "layout/header_tablet";
 
 @import "layout/sub_menu";
-@import "layout/sub_menu_desktop";
-@import "layout/sub_menu_tablet";
+// @import "layout/sub_menu_desktop";
+// @import "layout/sub_menu_tablet";
 
 @import "layout/footer";
 @import "layout/footer_desktop";
