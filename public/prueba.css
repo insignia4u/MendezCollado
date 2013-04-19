@@ -1,3 +1,21 @@
 #container, html.embed {
-  background-color: #CBFFFF;
+  background-color: #efefef;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file {
+  font-family: inherit;
+  border-radius: 7px;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+  font-family: myriadprolight;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.wufoo .info div {
+  font-family: myriadprolight;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  color: #2D673E;
 }
