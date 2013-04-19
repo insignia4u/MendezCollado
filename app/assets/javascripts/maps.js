@@ -21,13 +21,13 @@ function initialize() {
     content: contentString
   });
 
-  var companyImage = new google.maps.MarkerImage('images/logo.png',
+  var companyImage = new google.maps.MarkerImage('assets/logo.png',
     new google.maps.Size(100,50),
     new google.maps.Point(0,0),
     new google.maps.Point(50,50)
   );
 
-  var companyShadow = new google.maps.MarkerImage('images/logo_shadow.png',
+  var companyShadow = new google.maps.MarkerImage('assets/logo_shadow.png',
     new google.maps.Size(130,50),
     new google.maps.Point(0,0),
     new google.maps.Point(65, 50));
