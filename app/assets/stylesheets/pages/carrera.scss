@@ -27,6 +27,7 @@
 
   .info-panel {
      @include box-shadow(1px 1px 2px #D0D0D0);
+     margin-bottom: 20px;
 
     .panel {
       padding-bottom: 30px;
@@ -66,20 +67,12 @@
           color: #808080; 
         }
       }
+
+      &.panel-blue{
+        background-color: #0054a5;
+      }
+      
     }
 
-    .panel.blue{
-      background-color: #0054a5;
-    }
   }
-
-
-  // .columns {
-  //   margin-bottom: 2px;
-  //   margin-left: -13px;
-  //   font-size: 16px;
-  // }
-
-
-
 }
