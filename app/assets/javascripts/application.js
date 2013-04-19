@@ -15,6 +15,8 @@
 //= require jquery_ujs
 //= require index
 //= require jquery-picture-min
+//= require wufoo
+
 
 $(document).foundation();
 
