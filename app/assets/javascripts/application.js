@@ -16,6 +16,7 @@
 //= require index
 //= require jquery-picture-min
 //= require wufoo
+//= require maps
 
 
 $(document).foundation();
