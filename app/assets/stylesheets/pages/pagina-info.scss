@@ -1,0 +1,27 @@
+#pagina-info {
+  background-color: #efefef;
+
+
+  article{
+
+    p {
+      font-size: 14px;
+      color: #4d4d4d;
+      line-height: 24px;
+      text-align: justify;
+    }
+
+    h2 {
+      @include text-shadow(2px 1px #dbdbdb);
+      font-size: 20px;
+      font-weight: bold;
+      color: #008245;
+      padding-top: 5px;
+      padding-bottom: 3px;
+      }
+  }
+
+  hr {
+    margin: 30px 0;
+  }
+}

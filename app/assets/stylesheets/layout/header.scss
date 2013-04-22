@@ -49,10 +49,6 @@ header {
     height: 56px;
   }
 
-  .row {
-    // background-color: red;
-  }
-
   .top-bar-section {
     
     #mail {
@@ -75,14 +71,14 @@ header {
         height: 50px;
         display: none;
       }
-    }
 
-    li {
+      li {
 
         a:not(.button) {
           line-height: 56px;
           padding: 0 22px;
         }
+
 
         &#mail {
 
@@ -92,18 +88,24 @@ header {
           }
         }
 
-      a {
-        line-height: 50px;
-        font-weight: normal;
-        font-size: 18px;
-        text-align: center;
-        color: #2d673e
+        a {
+          line-height: 50px;
+          font-weight: normal;
+          font-size: 18px;
+          text-align: center;
+          color: #2d673e
+        }
+
+        &.selected {
+          a:not(.button) {
+            background-color: #B3B3B3;
+          }
+        }
       }
     }
   }
 
   .top-bar {
-    // background-color: green;
     height: auto;
     margin: 0px;
   }

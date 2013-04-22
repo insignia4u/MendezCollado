@@ -6,7 +6,6 @@
     css = [(css || 'menu clearfix')].flatten.join(' ')
     hide_children = Refinery::Core.menu_hide_children if hide_children.nil?
 -%>
-<!-- <nav id='<%= dom_id %>' class='<%= css %>'> -->
   <ul class="right">
     <%= render :partial => '/refinery/menu_branch', :collection => roots,
                :locals => {
@@ -16,8 +15,7 @@
                  :apply_css => true #if you don't care about class='first' class='last' or class='selected' set apply_css to false for speed.
                } -%>
     <li id="mail">
-            <a href="mailto:info@mendezcollado.com"> Email </a>
+      <a href="mailto:info@example.com?subject='Consulta'" target="_blank"> Email </a>
     </li>
   </ul>
-<!-- </nav> -->
 <% end -%>

@@ -8,21 +8,25 @@
         background: url("shared/staff-shadow-medium.png") no-repeat bottom right;
 
         .staff-box {
-
-          &:hover {
-
-            img {
-            }
-
-            .info {
-            }
-          }
         }
 
         img {
+          @include filter(grayscale(0%));
         }
 
         .info {
+          position: absolute;
+          bottom: 0px;
+          padding: 15px;
+          display: block;
+          background-color: #008045;
+          opacity: 0.58;
+          color: #ffffff;
+          font-family: "myriadprobold", "arial";
+          font-size: 20px;
+          line-height: 20px;
+          vertical-align: middle;
+          width: 100%;
         }
       }
     }
