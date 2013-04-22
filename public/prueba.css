@@ -19,3 +19,15 @@
   font-weight: normal;
   color: #2D673E;
 }
+
+.wufoo .info h2 {
+  visibility: hidden;
+}
+
+element.style {
+  visibility: hidden;
+}
+
+input.btTxt {
+  background-image: url(http://www.starbucks.com.ar/images/BtnEnviarForm.gif);
+}
