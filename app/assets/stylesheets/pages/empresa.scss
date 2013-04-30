@@ -62,6 +62,14 @@
       margin-bottom: 0px;
       border-top: 1px solid #222222;
 
+      &.first {
+        border-top: none;
+        margin-top: 4px;
+
+        h3 {
+          margin-top: 0px;
+        }
+      }
 
       h3 {
         font-size: 16px;
@@ -96,17 +104,17 @@
       }
     }
 
-    .first{
+    // .first{
 
-      article {
-        border-top: none;
-        margin-top: 4px;
+    //   article {
+    //     border-top: none;
+    //     margin-top: 4px;
 
-        h3 {
-          margin-top: 0px;
-        }
-      }
-    }
+    //     h3 {
+    //       margin-top: 0px;
+    //     }
+    //   }
+    // }
   }
 }
 

@@ -1,1 +1,23 @@
 <%= render '/refinery/content_page' %>
+<% @items = Refinery::News::Item.latest(4) %>
+
+<script type="javascript/template" id="home-news">
+  <% i = 0 %>
+  <% @items.each do |item| %>
+    <% if i % 2 == 0 %>
+     <div class="row">
+    <% end -%>
+      <div class="large-6 columns">
+        <article <%= (i < 2)? 'class=first' : ''%> >
+          <h3> <%= item.title %> </h3>
+          <div class="description">
+            <%= item.body.html_safe %>
+          </div>
+        </article>
+      </div>
+    <% i += 1 %>
+    <% if i % 2 == 0 %>
+      </div>
+    <% end -%>
+  <% end -%>
+</script>
