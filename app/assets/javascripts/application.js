@@ -37,4 +37,8 @@ $(document).ready(function() {
   $(".orbit-bullets li").each( function() {
     $(this).text($(this).attr("data-orbit-slide-number"));
   } );
+
+  // Carga Articulos home
+  $("#home-articles").html($("#home-news").html())
+  $('figure.responsive').picture();
 });
